@@ -1,6 +1,7 @@
 {
+    "app_id": "carrt-measure-backend-walss",
     "config_version": 20200603,
-    "name": "tasktracker",
+    "name": "carrt-measure-backend",
     "location": "US-VA",
     "deployment_model": "GLOBAL",
     "security": {},

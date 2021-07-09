@@ -1,12 +1,13 @@
 {
+    "id": "6055a1f760c611bdaf27c4e5",
     "name": "mongodb-atlas",
     "type": "mongodb-atlas",
     "config": {
-        "clusterName": "Cluster0",
+        "clusterName": "Alpha-cluster",
         "readPreference": "primary",
         "sync": {
             "state": "enabled",
-            "database_name": "tracker",
+            "database_name": "DbCarrtMeasure",
             "partition": {
                 "key": "_partition",
                 "type": "string",

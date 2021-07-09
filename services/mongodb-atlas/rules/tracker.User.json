@@ -1,6 +1,6 @@
 {
     "collection": "User",
-    "database": "tracker",
+    "database": "DbCarrtMeasure",
     "roles": [
         {
             "name": "default",
