@@ -1,0 +1,42 @@
+{
+    "collection": "Scans",
+    "database": "DbCarrtMeasure",
+    "id": "6055a1f760c611bdaf27c504",
+    "roles": [
+        {
+            "name": "default",
+            "apply_when": {},
+            "insert": true,
+            "delete": true,
+            "search": true,
+            "additional_fields": {}
+        }
+    ],
+    "schema": {
+        "bsonType": "object",
+        "properties": {
+            "_id": {
+                "bsonType": "objectId"
+            },
+            "_partition": {
+                "bsonType": "string"
+            },
+            "name": {
+                "bsonType": "string"
+            },
+            "owner": {
+                "bsonType": "string"
+            },
+            "status": {
+                "bsonType": "string"
+            }
+        },
+        "required": [
+            "_id",
+            "_partition",
+            "name",
+            "status"
+        ],
+        "title": "Scans"
+    }
+}
